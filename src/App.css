@@ -21,8 +21,8 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #1d1e2c;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: #b6b7ce;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition:

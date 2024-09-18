@@ -3,7 +3,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100vh;
   background-color: #59656f;
   padding: 0 3em;
+}
+
+.titles {
+  font-size: 2.5em;
+  color: #f7ebec;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 2em;
 }

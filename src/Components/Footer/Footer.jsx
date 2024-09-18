@@ -1,21 +1,26 @@
 import React from 'react';
-// import './Footer.css';
+import '../../styles/footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Conéctate conmigo en:</p>
-      <ul>
+    <footer className="footer">
+      <p className="footer-text">Conéctate conmigo en:</p>
+      <ul className="footer-links">
         <li>
-          <a href="https://www.linkedin.com/in/pablomartinescudero/">
+          <a
+            href="https://www.linkedin.com/in/pablomartinescudero/"
+            className="footer-link"
+          >
             LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://github.com/escu-git">GitHub</a>
+          <a href="https://github.com/escu-git" className="footer-link">
+            GitHub
+          </a>
         </li>
       </ul>
-      <p>&copy; 2024 Escudero Pablo Martín</p>
+      <p className="footer-copy">&copy; 2024 Escudero Pablo Martín</p>
     </footer>
   );
 };

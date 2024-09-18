@@ -1,0 +1,38 @@
+.footer {
+  background-color: #1d1e2c;
+  color: #f7ebec;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #59656f;
+}
+
+.footer-text {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-link {
+  color: #e31b6d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-top: 10px;
+  font-size: 0.9em;
+}

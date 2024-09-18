@@ -64,7 +64,6 @@ const Projects = () => {
   if (delayed) return <Spinner />;
   return (
     <div className="projects-container">
-      <h2 className={'projects-title'}>Proyectos</h2>
       <div className="projects">
         {repos.map((repo, index) => (
           <RepoView key={index} repoData={repo} />

@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #1d1e2c;
   color: #1d1e2c;
   padding: 1em 3em;
   text-align: center;
@@ -21,12 +21,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #e31b6d;
   text-decoration: none;
 }
 
 .mainTitle {
-  font-size: 1em;
+  font-size: 1.3em;
   margin: 0;
   color: #f7ebec;
 }
