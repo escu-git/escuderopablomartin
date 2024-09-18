@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/escuderopablomartin/static/css/main.9ed8a4c7.css",
-    "main.js": "/escuderopablomartin/static/js/main.9cb9ddeb.js",
+    "main.js": "/escuderopablomartin/static/js/main.220b2532.js",
     "static/js/453.604c92fd.chunk.js": "/escuderopablomartin/static/js/453.604c92fd.chunk.js",
     "static/media/portrait.JPG": "/escuderopablomartin/static/media/portrait.a97029caad95c231ad67.JPG",
     "index.html": "/escuderopablomartin/index.html",
     "main.9ed8a4c7.css.map": "/escuderopablomartin/static/css/main.9ed8a4c7.css.map",
-    "main.9cb9ddeb.js.map": "/escuderopablomartin/static/js/main.9cb9ddeb.js.map",
+    "main.220b2532.js.map": "/escuderopablomartin/static/js/main.220b2532.js.map",
     "453.604c92fd.chunk.js.map": "/escuderopablomartin/static/js/453.604c92fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ed8a4c7.css",
-    "static/js/main.9cb9ddeb.js"
+    "static/js/main.220b2532.js"
   ]
 }
