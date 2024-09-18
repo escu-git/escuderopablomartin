@@ -30,12 +30,6 @@
 }
 
 .portrait-pic:hover {
-  transform: scale(1.1);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
-  cursor: none !important;
-}
-
-.about-text:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }

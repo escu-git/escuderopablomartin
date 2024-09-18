@@ -43,8 +43,21 @@
   text-decoration: underline;
 }
 
-.projects-title {
-  font-size: 2em;
-  margin: 0;
+.repo-card {
+  background-color: #1d1e2c;
   color: #f7ebec;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 10px;
+  position: relative;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
