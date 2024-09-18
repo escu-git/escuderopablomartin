@@ -2,10 +2,11 @@ import React from 'react';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import '../../styles/body.css';
 
 const Body = () => {
   return (
-    <div>
+    <div className={'bodyContainer'}>
       <section id="about">
         <About />
       </section>
