@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
-  background-color: #ac9fbb;
+  background-color: #59656f;
+  padding: 0 3em;
 }

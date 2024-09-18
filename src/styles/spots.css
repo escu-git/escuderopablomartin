@@ -1,0 +1,28 @@
+.spot {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: none !important;
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Color blanco suave con transparencia */
+  border-radius: 50%;
+  filter: blur(10rem);
+  z-index: 1;
+}
+
+.spot:nth-child(2) {
+  background: rgba(255, 255, 255, 0.25);
+  top: 20%;
+  left: 25%;
+}
+
+.spot:nth-child(3) {
+  background: rgba(255, 255, 255, 0.3);
+  top: 60%;
+  left: 60%;
+}

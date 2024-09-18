@@ -4,8 +4,7 @@ import '../../styles/header.css';
 const Header = () => {
   return (
     <header className={'mainHeader'}>
-      <h1 className={'mainTitle'}>{'Escudero Pablo Martín'}</h1>
-      <h2 className={'mainSubTitle'}>{'Desarrollador'}</h2>
+      <h5 className={'mainTitle'}>{'Escudero Pablo Martín'}</h5>
       <nav>
         <ul>
           <li>

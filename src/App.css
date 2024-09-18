@@ -9,4 +9,29 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  cursor: none;
+}
+
+body {
+  cursor: none;
+}
+
+.cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #1d1e2c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition:
+    background 0.3s,
+    transform 0.3s;
+  z-index: 9999;
+}
+
+.cursor:hover {
+  background: #1d1e2c;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }

@@ -1,8 +1,13 @@
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   background-color: #333;
   color: #1d1e2c;
-  padding: 1em;
+  padding: 1em 3em;
   text-align: center;
+  height: 50px;
 }
 
 nav ul {
@@ -20,17 +25,8 @@ nav ul li a {
   text-decoration: none;
 }
 
-h1,
-h2 {
-  color: #f7ebec;
-}
-
 .mainTitle {
-  font-size: 3em;
+  font-size: 1em;
   margin: 0;
-}
-
-.mainSubTitle {
-  font-size: 1.5em;
-  margin: 0;
+  color: #f7ebec;
 }
