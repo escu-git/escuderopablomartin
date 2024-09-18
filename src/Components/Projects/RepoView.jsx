@@ -7,8 +7,19 @@ const RepoView = ({ repoUrl }) => {
     const fetchRepoData = async () => {
       try {
         const response = await fetch(
-          `https://api.github.com/repos${repoUrl.replace('https://github.com', '')}`
+          `https://api.github.com/repos/${repoUrl}`,
+          {
+            headers: {
+              Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
+              Accept: 'application/vnd.github.v3+json',
+            },
+          }
         );
+
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+
         const data = await response.json();
         setRepoData(data);
       } catch (error) {
