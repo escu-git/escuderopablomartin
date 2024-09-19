@@ -15,7 +15,7 @@ const RepoView = ({ repoData }) => {
         {techs.map((t) => t).join(' - ')}
       </p>
       <p>
-        <strong>Creado:</strong> {new Date(creado).toLocaleDateString()}
+        <strong>Creado:</strong> {new Date(creado).toLocaleDateString('es-ES')}
       </p>
       <a
         href={`https://github.com/${url}`}

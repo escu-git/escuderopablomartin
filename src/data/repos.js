@@ -48,7 +48,7 @@ export const repos = [
     name: 'sistema_gestion',
     img: person,
     description: 'Sistema de gestión en consola para comercio',
-    creado: '19/11/2023',
+    creado: '11/19/2023',
     techs: ['C++'],
   },
 ];

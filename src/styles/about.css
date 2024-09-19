@@ -5,17 +5,19 @@
   justify-content: space-evenly;
   margin: 40px;
   margin: auto;
+  word-wrap: wrap;
 }
 
 .about-text {
   width: 50%;
   font-size: 1.5em;
   color: #f7ebec;
+  text-align: right;
 }
 
 .portrait-pic {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   border: 6px solid var(--secondary);
   background: #1d1e2c;
