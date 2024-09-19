@@ -1,11 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import '../../styles/body.css';
 import Spots from '../../Commons/Spot';
+import Knowledge from '../Knowledge/Knowledge';
+import { techs } from '../../data/techs';
+import { repos } from '../../data/repos';
 
 const Body = () => {
+  const [selectedTech, setSelectedTech] = useState('');
+  const [projects, setProjects] = useState(repos);
+
+  // Maneja el clic en una tecnología
+  const handleTechClick = (techName) => {
+    setSelectedTech((prevTech) => (prevTech === techName ? '' : techName));
+  };
+
+  // Filtra los proyectos según la tecnología seleccionada
+  useEffect(() => {
+    if (selectedTech === '') {
+      setProjects(repos); // Muestra todos los proyectos si no hay tecnología seleccionada
+    } else {
+      const filtered = repos.filter((repo) =>
+        repo.techs.includes(selectedTech)
+      );
+      setProjects(filtered);
+    }
+  }, [selectedTech]);
+
   return (
     <div className={'bodyContainer'}>
       <Spots />
@@ -21,7 +44,18 @@ const Body = () => {
         <div className={'title-container'}>
           <h2 className={'titles'}>Proyectos</h2>
         </div>
-        <Projects />
+        <div className={'techContainer'}>
+          <div className="knowledge-container">
+            <Knowledge
+              techs={techs}
+              onTechClick={handleTechClick}
+              selectedTech={selectedTech}
+            />
+          </div>
+          <div className="projects-container">
+            <Projects projects={projects} />
+          </div>
+        </div>
       </section>
       <section id="contact">
         <div className={'title-container'}>

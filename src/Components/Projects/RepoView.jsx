@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const RepoView = ({ repoData }) => {
-  const { url, img, description, lenguajes, creado, name } = repoData;
+  const { url, img, description, lenguajes, creado, name, techs } = repoData;
 
   return (
     <div className="repo-details repo-card">
@@ -11,7 +11,8 @@ const RepoView = ({ repoData }) => {
       </div>
       <p>{description}</p>
       <p>
-        <strong>Lenguaje:</strong> {lenguajes}
+        <strong>Lenguaje: </strong>
+        {techs.map((t) => t).join(' - ')}
       </p>
       <p>
         <strong>Creado:</strong> {new Date(creado).toLocaleDateString()}

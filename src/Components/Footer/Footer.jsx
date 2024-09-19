@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../styles/footer.css';
+import git from '../../assets/git.png';
+import linkedin from '../../assets/linkedin.png';
 
 const Footer = () => {
   return (
@@ -11,12 +13,12 @@ const Footer = () => {
             href="https://www.linkedin.com/in/pablomartinescudero/"
             className="footer-link"
           >
-            LinkedIn
+            <img src={linkedin} alt="linkedin" />
           </a>
         </li>
         <li>
           <a href="https://github.com/escu-git" className="footer-link">
-            GitHub
+            <img src={git} alt="git" />
           </a>
         </li>
       </ul>
