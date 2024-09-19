@@ -21,6 +21,7 @@ const RepoView = ({ repoData }) => {
         href={`https://github.com/${url}`}
         target="_blank"
         rel="noopener noreferrer"
+        className={'anchor'}
       >
         Ver en GitHub
       </a>

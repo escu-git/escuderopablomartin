@@ -44,7 +44,7 @@ export const repos = [
     techs: ['C++'],
   },
   {
-    url: 'https://github.com/UTN-Laboratorio-I/sistema_gestion_herrajes',
+    url: 'UTN-Laboratorio-I/sistema_gestion_herrajes',
     name: 'sistema_gestion',
     img: person,
     description: 'Sistema de gestión en consola para comercio',

@@ -98,3 +98,13 @@
 .selectedTech {
   transform: translatex(30px);
 }
+
+.anchor {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.anchor img {
+  width: 50px;
+}

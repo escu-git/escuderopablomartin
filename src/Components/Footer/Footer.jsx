@@ -12,12 +12,17 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/pablomartinescudero/"
             className="footer-link"
+            target="_blank"
           >
             <img src={linkedin} alt="linkedin" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/escu-git" className="footer-link">
+          <a
+            href="https://github.com/escu-git"
+            className="footer-link"
+            target="_blank"
+          >
             <img src={git} alt="git" />
           </a>
         </li>
