@@ -4,6 +4,7 @@ import js from '../assets/Techs/js.png';
 import css from '../assets/Techs/css.png';
 import react from '../assets/Techs/react.png';
 import nodeJs from '../assets/Techs/nodejs.png';
+import csharp from '../assets/Techs/c#.png';
 
 export const techs = [
   {
@@ -30,6 +31,11 @@ export const techs = [
     id: 5,
     name: 'C++',
     img: cpp,
+  },
+  {
+    id: 9,
+    name: 'C#',
+    img: csharp,
   },
   {
     id: 8,

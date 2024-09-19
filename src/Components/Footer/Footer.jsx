@@ -12,6 +12,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/pablomartinescudero/"
             className="footer-link"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src={linkedin} alt="linkedin" />
@@ -21,6 +22,7 @@ const Footer = () => {
           <a
             href="https://github.com/escu-git"
             className="footer-link"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src={git} alt="git" />
