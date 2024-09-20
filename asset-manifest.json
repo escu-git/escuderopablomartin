@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/escuderopablomartin/static/css/main.5eb171b3.css",
-    "main.js": "/escuderopablomartin/static/js/main.8b6ffeea.js",
+    "main.css": "/escuderopablomartin/static/css/main.32d43a85.css",
+    "main.js": "/escuderopablomartin/static/js/main.d87ddc2a.js",
     "static/js/453.604c92fd.chunk.js": "/escuderopablomartin/static/js/453.604c92fd.chunk.js",
     "static/media/portrait.JPG": "/escuderopablomartin/static/media/portrait.a97029caad95c231ad67.JPG",
     "static/media/person.png": "/escuderopablomartin/static/media/person.91e7259f87c41b826514.png",
@@ -10,12 +10,12 @@
     "static/media/html.png": "/escuderopablomartin/static/media/html.1460cba2ebf18b2a2790.png",
     "static/media/react.png": "/escuderopablomartin/static/media/react.4e4594a2feb357b1c704.png",
     "index.html": "/escuderopablomartin/index.html",
-    "main.5eb171b3.css.map": "/escuderopablomartin/static/css/main.5eb171b3.css.map",
-    "main.8b6ffeea.js.map": "/escuderopablomartin/static/js/main.8b6ffeea.js.map",
+    "main.32d43a85.css.map": "/escuderopablomartin/static/css/main.32d43a85.css.map",
+    "main.d87ddc2a.js.map": "/escuderopablomartin/static/js/main.d87ddc2a.js.map",
     "453.604c92fd.chunk.js.map": "/escuderopablomartin/static/js/453.604c92fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eb171b3.css",
-    "static/js/main.8b6ffeea.js"
+    "static/css/main.32d43a85.css",
+    "static/js/main.d87ddc2a.js"
   ]
 }
