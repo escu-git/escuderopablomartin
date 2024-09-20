@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import '../../styles/contact.css';
+import { useToast } from '../../Context/ToastContext';
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
+  const toast = useToast();
+  const INITIAL_VALUE = {
     name: '',
     email: '',
     message: '',
-  });
+  };
+  const [formData, setFormData] = useState(INITIAL_VALUE);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -15,7 +18,8 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Formulario enviado', formData);
+    toast.showToast(`¡Gracias ${formData.name}, tu mail fue enviado✔️!`);
+    setFormData(INITIAL_VALUE);
   };
 
   return (

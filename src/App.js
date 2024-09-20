@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.css';
 import Main from './Components/Main';
+import { ToastProvider } from './Context/ToastContext';
 
 function App() {
   useEffect(() => {
@@ -23,7 +24,9 @@ function App() {
 
   return (
     <div className="App">
-      <Main />
+      <ToastProvider>
+        <Main />
+      </ToastProvider>
     </div>
   );
 }
